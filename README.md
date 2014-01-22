@@ -1,11 +1,11 @@
 serpentPOS
 ==========
-serpentPOS is a python port of <a href="http://code.google.com/p/jspos/">jspos</a>. In other words, this is not my work.
+serpentPOS is a python port of <a href="http://code.google.com/p/jspos/">jspos</a> and is **_not_** my work.
+I needed it so I figured I'd share the code.
 
 Usage:
 
-    >>> import serpentPOS.lexer
-    >>> import serpentPOS.postagger
+    >>> from serpentPOS import lexer, postagger
     >>> string = 'This is some text to be tagged by the tagger'
   
     >>> words = lexer.Lexer().lex(string)
