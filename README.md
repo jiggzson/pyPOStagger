@@ -4,8 +4,8 @@ serpentPOS is a python port of <a href="http://code.google.com/p/jspos/">jspos</
 
 Usage:
 
-    >>> import lexer
-    >>> import postagger
+    >>> import serpentPOS.lexer
+    >>> import serpentPOS.postagger
     >>> string = 'This is some text to be tagged by the tagger'
   
     >>> words = lexer.Lexer().lex(string)
